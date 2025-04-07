@@ -1,0 +1,14 @@
+// Write a JavaScript function that checks if an input string follows a valid email format (contains "@" and "."). Return a message indicating whether it’s valid or not.
+
+
+function emailChecker(inputEmail){
+    
+    if(inputEmail.includes("@gmail.com")){
+        console.log("You have entered valid email")
+    }else{
+         console.log("please enter valid email")
+    }
+}
+
+const email = "jayeshnanurkar@gmail.com";
+emailChecker(email)

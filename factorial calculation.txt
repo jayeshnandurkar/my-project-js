@@ -1,0 +1,13 @@
+// Factorial: Write a function to calculate the factorial of a number.
+
+
+function factorialCalculation(num){
+    let factorial = 1;
+    
+    for(let i = 1; i<=num; i++){
+        factorial = i*factorial;
+    }
+    return factorial;
+}
+
+console.log(factorialCalculation(5))

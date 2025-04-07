@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "start:": "node improveMyconceptInJs.js",
+    "dev:": "nodemon improveMyconceptInJs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.15.0",
+    "nodemon": "^3.1.7"
+  }
+}

@@ -1,0 +1,14 @@
+// Palindrome: Write a function to check if a given string is a palindrome. in js
+
+function isPalindrome(str){
+    //if we get anything like any symbol or anything except a-z and 0-9 so we'll replace "" (it means we'll remove it))
+    let cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, "");
+    
+    let reverceString = cleanedStr.split("").reverse().join("");
+    
+    console.log(reverceString === cleanedStr);
+    
+}
+
+
+isPalindrome("ok");
