@@ -44,6 +44,5 @@ console.log("Generated OTP:", otp);
 const userOTP = "123456"; // This should come from user input
 console.log("Is OTP valid?", validateOTP(userOTP, otp));
 
-
-
+// helloooo okay I'm making new changes.
 // hello welcome to my code
